@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:screenOrientation="portrait"
     android:background="#0E1C2B"
-    tools:context=".Game">
+    tools:context=".GameBase">
 
     <Button
         android:id="@+id/newbtn"
