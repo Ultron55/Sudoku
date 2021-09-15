@@ -777,7 +777,7 @@ public class GameBase extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 dialog.cancel();
-                level = 70;
+                level = lvlmiddle + AreaSize * 2;
                 lvlchoice = 2;
                 NewSudoku();
             }
