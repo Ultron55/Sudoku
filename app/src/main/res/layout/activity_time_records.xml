@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recordmainCL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btnseconary"
+    tools:context=".TimeRecordsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:id="@+id/backlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/textcolor1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/up9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:background="@color/mainback"
+                android:orientation="horizontal"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/t9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#0015464C"
+                        android:padding="10dp"
+                        android:text="9x9"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolor1"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/plus9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#00FFFFFF"
+                            android:onClick="plus9Clicl"
+                            android:paddingRight="20dp"
+                            android:text="+"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/textcolor1"
+                            android:textSize="40dp"
+                            android:textStyle="bold" />
+                    </FrameLayout>
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lvl9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lvl19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/btnprimary"
+                        android:padding="7dp"
+                        android:text="Low"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolor2"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lvl29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/btnprimary"
+                        android:padding="7dp"
+                        android:text="Middle"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolor2"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lvl39"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/btnprimary"
+                        android:padding="7dp"
+                        android:text="High"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolor2"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/up16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:background="@color/mainback"
+                android:orientation="horizontal"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/t16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#0015464C"
+                        android:padding="10dp"
+                        android:text="16x16"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolor1"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/plus16"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#00FFFFFF"
+                            android:onClick="plus16Clicl"
+                            android:paddingRight="20dp"
+                            android:text="+"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/textcolor1"
+                            android:textSize="40dp"
+                            android:textStyle="bold" />
+                    </FrameLayout>
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lvl16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lvl116"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/btnprimary"
+                        android:padding="7dp"
+                        android:text="Low"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolor2"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lvl216"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/btnprimary"
+                        android:padding="7dp"
+                        android:text="Middle"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolor2"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lvl316"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/btnprimary"
+                        android:padding="7dp"
+                        android:text="High"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolor2"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

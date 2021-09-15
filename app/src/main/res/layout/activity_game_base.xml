@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maingameCL"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/mainback"
+    android:screenOrientation="portrait">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gameCL"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/SettingbtnON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="27dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/btnprimary"
+            android:contentDescription="@string/erasercontentDescription"
+            android:maxWidth="40dp"
+            android:maxHeight="40dp"
+            android:onClick="onSettingbtnONClick"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:textColor="#FFE8A5"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toTopOf="@+id/SudokuArea"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/settings" />
+
+        <Chronometer
+            android:id="@+id/chronometr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="96dp"
+            android:layout_marginBottom="31dp"
+            android:background="@color/btnprimary"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/textcolor1"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/SudokuArea"
+            app:layout_constraintEnd_toStartOf="@+id/Searchbtn"
+            app:layout_constraintStart_toEndOf="@+id/SettingbtnON"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </Chronometer>
+
+        <ImageButton
+            android:id="@+id/Searchbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="27dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/btnprimary"
+            android:contentDescription="@string/erasercontentDescription"
+            android:maxWidth="40dp"
+            android:maxHeight="40dp"
+            android:onClick="onClickSearch"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:textColor="#FFE8A5"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toTopOf="@+id/SudokuArea"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/search" />
+
+        <GridLayout
+            android:id="@+id/SudokuArea"
+            android:layout_width="match_parent"
+            android:layout_height="384dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="12dp"
+            android:background="@color/tableback"
+            android:columnCount="16"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:rowCount="16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SettingbtnON">
+
+        </GridLayout>
+
+        <FrameLayout
+            android:id="@+id/progressFL"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@id/SudokuArea"
+            app:layout_constraintEnd_toEndOf="@id/SudokuArea"
+            app:layout_constraintStart_toStartOf="@id/SudokuArea"
+            app:layout_constraintTop_toTopOf="@id/SudokuArea">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/btnprimary"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/ResumeOpacityArea"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/menuopacity"
+            android:onClick="ResumeClick"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@id/SudokuArea"
+            app:layout_constraintEnd_toEndOf="@+id/SudokuArea"
+            app:layout_constraintStart_toStartOf="@+id/SudokuArea"
+            app:layout_constraintTop_toTopOf="@id/SudokuArea" />
+
+        <FrameLayout
+            android:id="@+id/ResumebtnFL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@id/SudokuArea"
+            app:layout_constraintEnd_toEndOf="@+id/SudokuArea"
+            app:layout_constraintStart_toStartOf="@+id/SudokuArea"
+            app:layout_constraintTop_toTopOf="@+id/SudokuArea"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/ResumeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/mainback"
+                android:padding="10dp"
+                android:text="RESUME"
+                android:textColor="@color/textcolor2"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/LValuesArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SudokuArea">
+
+            <GridLayout
+                android:id="@+id/ValuesArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:columnCount="9"
+                android:orientation="horizontal"
+                android:rowCount="9">
+
+            </GridLayout>
+
+            <ImageButton
+                android:id="@+id/Eraserbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="11dp"
+                android:adjustViewBounds="true"
+                android:background="@color/btnprimary"
+                android:contentDescription="@string/erasercontentDescription"
+                android:maxWidth="40dp"
+                android:maxHeight="40dp"
+                android:onClick="onMyButtonClick"
+                android:scaleType="fitCenter"
+                android:tag="eraser"
+                android:textColor="@color/textcolor1"
+                android:textSize="28dp"
+                app:srcCompat="@drawable/eraser" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LCheckboxsArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LValuesArea">
+
+            <GridLayout
+                android:id="@+id/CheckboxsArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:columnCount="9"
+                android:orientation="horizontal"
+                android:rowCount="9" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/Pencilbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="11dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/btnprimary"
+                    android:contentDescription="@string/pencilcontentDescription"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:onClick="onPencilbtnClick"
+                    android:paddingLeft="2dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pencil" />
+
+                <Button
+                    android:id="@+id/Xbtn"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="11dp"
+                    android:background="@color/btnprimary"
+                    android:onClick="onXbtnClick"
+                    android:text="X"
+                    android:textColor="#FFE8A5"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <FrameLayout
+        android:id="@+id/SettingFL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/menuopacity"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/menuL"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/mainback"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingTop="22dp"
+                android:paddingRight="40dp">
+
+                <ImageButton
+                    android:id="@+id/SettingbtnOFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/btnprimary"
+                    android:contentDescription="@string/erasercontentDescription"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:onClick="onSettingbtnOFFClick"
+                    android:padding="3dp"
+                    android:scaleType="fitCenter"
+                    android:textColor="@color/textcolor1"
+                    android:textSize="28dp"
+                    app:srcCompat="@drawable/settings" />
+
+                <Button
+                    android:id="@+id/NewGamebtn"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/btnprimary"
+                    android:onClick="onNewGamebtnClick"
+                    android:text="@string/new_game"
+                    android:textAlignment="center"
+                    android:textColor="@color/textcolor1"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/ChoiceLevelbtn"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/btnprimary"
+                    android:onClick="onChoiceLevelbtnClick"
+                    android:text="@string/choicebtntext"
+                    android:textAlignment="center"
+                    android:textColor="@color/textcolor1"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/SizeSwitchbtn"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/btnprimary"
+                    android:onClick="onSizeSwitchbtnClick"
+                    android:paddingStart="8dp"
+                    android:text="@string/sizeswitchbtn"
+                    android:textAlignment="center"
+                    android:textColor="@color/textcolor1"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/Stylebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/btnprimary"
+                    android:onClick="onStylebtnClick"
+                    android:paddingStart="8dp"
+                    android:text="Style"
+                    android:textAlignment="center"
+                    android:textColor="@color/textcolor1"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/menuOpacitiArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onSettingbtnOFFClick" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
