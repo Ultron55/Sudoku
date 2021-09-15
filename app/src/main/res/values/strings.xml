@@ -1,9 +1,5 @@
 <resources>
     <string name="app_name">Sudoku</string>
     <string name="new_game">New game</string>
-    <string name="choicebtntext">Choice level</string>
-    <string name="erasercontentDescription">eraser</string>
-    <string name="pencilcontentDescription">pencil</string>
-    <string name="sizeswitchbtn">Size: 9</string>
 
 </resources>
