@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="textcolor1">#FFE8A5</color>
+    <color name="textcolor2">#EF7F08</color>
+    <color name="tableback">#4F7D91</color>
+    <color name="select">#011663</color>
+    <color name="btnprimary">#15464C</color>
+    <color name="btnseconary">#0A6068</color>
+    <color name="errornumb">#A6102D</color>
+    <color name="selecterrornumb">#630E57</color>
+    <color name="Xcolor">#0357A0</color>
+    <color name="menuopacity">#94212932</color>
+    <color name="mainback">#061F3C</color>
+</resources>

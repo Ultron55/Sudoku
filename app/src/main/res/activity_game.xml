@@ -32,10 +32,10 @@
         android:layout_marginTop="90sp"
         android:layout_marginEnd="12dp"
         android:background="#4F7D91"
+        android:rowCount="9"
         android:columnCount="9"
         android:orientation="horizontal"
         android:padding="4sp"
-        android:rowCount="9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -43,6 +43,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -57,6 +58,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -68,6 +70,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -79,6 +82,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#0A6068"
@@ -91,6 +95,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -102,6 +107,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginRight="1sp"
             android:background="#0A6068"
@@ -114,6 +120,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#15464C"
@@ -126,6 +133,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -137,6 +145,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -148,6 +157,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -162,6 +172,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -173,6 +184,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -184,6 +196,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#0A6068"
@@ -196,6 +209,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -207,6 +221,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginRight="1sp"
             android:background="#0A6068"
@@ -219,6 +234,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#15464C"
@@ -231,6 +247,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -242,6 +259,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -253,6 +271,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#15464C"
@@ -268,6 +287,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#15464C"
@@ -280,6 +300,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#15464C"
@@ -292,6 +313,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:layout_marginBottom="3sp"
@@ -305,6 +327,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#0A6068"
@@ -317,6 +340,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginRight="1sp"
             android:layout_marginBottom="3sp"
@@ -330,6 +354,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:layout_marginBottom="3sp"
@@ -343,6 +368,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#15464C"
@@ -355,6 +381,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#15464C"
@@ -368,6 +395,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -382,6 +410,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -393,6 +422,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -404,6 +434,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#15464C"
@@ -416,6 +447,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -427,6 +459,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginRight="1sp"
             android:background="#15464C"
@@ -439,6 +472,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#0A6068"
@@ -451,6 +485,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -462,6 +497,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -473,6 +509,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -487,6 +524,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -498,6 +536,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -509,6 +548,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#15464C"
@@ -521,6 +561,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -532,6 +573,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginRight="1sp"
             android:background="#15464C"
@@ -544,6 +586,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#0A6068"
@@ -556,6 +599,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0E5F67"
             android:onClick="onMyButtonClick"
@@ -567,6 +611,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0E5F67"
             android:onClick="onMyButtonClick"
@@ -578,6 +623,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#0A6068"
@@ -593,6 +639,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#0A6068"
@@ -605,6 +652,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#0A6068"
@@ -617,6 +665,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:layout_marginBottom="3sp"
@@ -630,6 +679,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#15464C"
@@ -642,6 +692,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginRight="1sp"
             android:layout_marginBottom="3sp"
@@ -655,6 +706,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:layout_marginBottom="3sp"
@@ -668,6 +720,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#0A6068"
@@ -680,6 +733,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginBottom="3sp"
             android:background="#0A6068"
@@ -692,6 +746,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -706,6 +761,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -717,6 +773,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -728,6 +785,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#0A6068"
@@ -740,6 +798,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -751,6 +810,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginRight="1sp"
             android:background="#0A6068"
@@ -763,6 +823,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#15464C"
@@ -775,6 +836,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -786,6 +848,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -797,6 +860,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -811,6 +875,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -822,6 +887,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -833,6 +899,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#0A6068"
@@ -845,6 +912,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -856,6 +924,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginRight="1sp"
             android:background="#0A6068"
@@ -868,6 +937,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#15464C"
@@ -880,6 +950,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -891,6 +962,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -902,6 +974,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -916,6 +989,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -927,6 +1001,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -938,6 +1013,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#0A6068"
@@ -950,6 +1026,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -961,6 +1038,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#0A6068"
             android:onClick="onMyButtonClick"
@@ -972,6 +1050,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:layout_marginLeft="2.5sp"
             android:background="#15464C"
@@ -984,6 +1063,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -995,6 +1075,7 @@
         <Button
             android:layout_width="39.5sp"
             android:layout_height="39.5sp"
+            android:layout_gravity="center"
             android:layout_margin="1sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
@@ -1019,22 +1100,23 @@
         tools:visibility="invisible" />
 
 
-    <LinearLayout
+    <GridLayout
         android:id="@+id/Numbers"
-        android:layout_width="390sp"
-        android:layout_height="42sp"
-        android:layout_marginStart="12sp"
+        android:layout_width="347sp"
+        android:layout_height="90sp"
+        android:layout_marginStart="11dp"
         android:layout_marginTop="24sp"
-        android:layout_marginEnd="12sp"
+        android:columnCount="9"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:rowCount="9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/table1">
 
         <Button
             android:layout_width="35.5sp"
             android:layout_height="37.5sp"
-            android:layout_margin="2sp"
+            android:layout_margin="1.5sp"
+            android:layout_marginRight="0sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
             android:tag="1"
@@ -1047,7 +1129,8 @@
         <Button
             android:layout_width="35.5sp"
             android:layout_height="37.5sp"
-            android:layout_margin="2sp"
+            android:layout_margin="1.5sp"
+            android:layout_marginRight="0sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
             android:tag="2"
@@ -1058,7 +1141,7 @@
         <Button
             android:layout_width="35.5sp"
             android:layout_height="37.5sp"
-            android:layout_margin="2sp"
+            android:layout_margin="1.5sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
             android:tag="3"
@@ -1069,7 +1152,7 @@
         <Button
             android:layout_width="35.5sp"
             android:layout_height="37.5sp"
-            android:layout_margin="2sp"
+            android:layout_margin="1.5sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
             android:tag="4"
@@ -1080,7 +1163,7 @@
         <Button
             android:layout_width="35.5sp"
             android:layout_height="37.5sp"
-            android:layout_margin="2sp"
+            android:layout_margin="1.5sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
             android:tag="5"
@@ -1091,7 +1174,7 @@
         <Button
             android:layout_width="35.5sp"
             android:layout_height="37.5sp"
-            android:layout_margin="2sp"
+            android:layout_margin="1.5sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
             android:tag="6"
@@ -1102,7 +1185,7 @@
         <Button
             android:layout_width="35.5sp"
             android:layout_height="37.5sp"
-            android:layout_margin="2sp"
+            android:layout_margin="1.5sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
             android:tag="7"
@@ -1113,7 +1196,7 @@
         <Button
             android:layout_width="35.5sp"
             android:layout_height="37.5sp"
-            android:layout_margin="2sp"
+            android:layout_margin="1.5sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
             android:tag="8"
@@ -1124,7 +1207,7 @@
         <Button
             android:layout_width="35.5sp"
             android:layout_height="37.5sp"
-            android:layout_margin="2sp"
+            android:layout_margin="1.5sp"
             android:background="#15464C"
             android:onClick="onMyButtonClick"
             android:tag="9"
@@ -1132,29 +1215,96 @@
             android:textColor="#FFE8A5"
             android:textSize="28sp" />
 
+        <!--16x16-->
         <Button
             android:layout_width="35.5sp"
             android:layout_height="37.5sp"
-            android:layout_margin="2sp"
-            android:layout_weight="1"
+            android:layout_margin="1.5sp"
             android:background="#15464C"
-            android:drawableLeft="@drawable/eraser"
             android:onClick="onMyButtonClick"
-            android:tag="eraser"
+            android:tag="A"
+            android:text="A"
+            android:textColor="#FFE8A5"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <Button
+            android:layout_width="35.5sp"
+            android:layout_height="37.5sp"
+            android:layout_margin="1.5sp"
+            android:background="#15464C"
+            android:onClick="onMyButtonClick"
+            android:tag="B"
+            android:text="B"
             android:textColor="#FFE8A5"
             android:textSize="28sp" />
 
-    </LinearLayout>
+        <Button
+            android:layout_width="35.5sp"
+            android:layout_height="37.5sp"
+            android:layout_margin="1.5sp"
+            android:background="#15464C"
+            android:onClick="onMyButtonClick"
+            android:tag="C"
+            android:text="C"
+            android:textColor="#FFE8A5"
+            android:textSize="28sp" />
 
-    <LinearLayout
+        <Button
+            android:layout_width="35.5sp"
+            android:layout_height="37.5sp"
+            android:layout_margin="1.5sp"
+            android:background="#15464C"
+            android:onClick="onMyButtonClick"
+            android:tag="D"
+            android:text="D"
+            android:textColor="#FFE8A5"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="35.5sp"
+            android:layout_height="37.5sp"
+            android:layout_margin="1.5sp"
+            android:background="#15464C"
+            android:onClick="onMyButtonClick"
+            android:tag="E"
+            android:text="E"
+            android:textColor="#FFE8A5"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="35.5sp"
+            android:layout_height="37.5sp"
+            android:layout_margin="1.5sp"
+            android:background="#15464C"
+            android:onClick="onMyButtonClick"
+            android:tag="F"
+            android:text="F"
+            android:textColor="#FFE8A5"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="35.5sp"
+            android:layout_height="37.5sp"
+            android:layout_margin="1.5sp"
+            android:background="#15464C"
+            android:onClick="onMyButtonClick"
+            android:tag="G"
+            android:text="G"
+            android:textColor="#FFE8A5"
+            android:textSize="28sp" />
+
+
+    </GridLayout>
+
+    <GridLayout
         android:id="@+id/Checkboxs"
-        android:layout_width="357sp"
-        android:layout_height="42sp"
-        android:layout_marginStart="12dp"
+        android:layout_width="347sp"
+        android:layout_height="90sp"
+        android:layout_marginStart="11dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="42dp"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Numbers">
 
@@ -1162,7 +1312,7 @@
             android:id="@+id/checkBox"
             android:layout_width="30sp"
             android:layout_height="39.5sp"
-            android:layout_marginLeft="2sp"
+            android:layout_marginLeft="4sp"
             android:layout_weight="1"
             android:background="#0015464C"
             android:buttonTint="@color/gold"
@@ -1174,7 +1324,7 @@
             android:id="@+id/checkBox2"
             android:layout_width="30sp"
             android:layout_height="39.5sp"
-            android:layout_marginLeft="2sp"
+            android:layout_marginLeft="4sp"
             android:layout_weight="1"
             android:background="#0015464C"
             android:buttonTint="@color/gold"
@@ -1187,7 +1337,7 @@
             android:id="@+id/checkBox3"
             android:layout_width="30sp"
             android:layout_height="39.5sp"
-            android:layout_marginLeft="2sp"
+            android:layout_marginLeft="4sp"
             android:layout_weight="1"
             android:background="#0015464C"
             android:buttonTint="@color/gold"
@@ -1199,7 +1349,7 @@
             android:id="@+id/checkBox4"
             android:layout_width="30sp"
             android:layout_height="39.5sp"
-            android:layout_marginLeft="2sp"
+            android:layout_marginLeft="4sp"
             android:layout_weight="1"
             android:background="#0015464C"
             android:buttonTint="@color/gold"
@@ -1211,7 +1361,7 @@
             android:id="@+id/checkBox5"
             android:layout_width="30sp"
             android:layout_height="39.5sp"
-            android:layout_marginLeft="2sp"
+            android:layout_marginLeft="4sp"
             android:layout_weight="1"
             android:background="#0015464C"
             android:buttonTint="@color/gold"
@@ -1223,7 +1373,7 @@
             android:id="@+id/checkBox6"
             android:layout_width="30sp"
             android:layout_height="39.5sp"
-            android:layout_marginLeft="2sp"
+            android:layout_marginLeft="4sp"
             android:layout_weight="1"
             android:background="#0015464C"
             android:buttonTint="@color/gold"
@@ -1235,7 +1385,7 @@
             android:id="@+id/checkBox7"
             android:layout_width="30sp"
             android:layout_height="39.5sp"
-            android:layout_marginLeft="2sp"
+            android:layout_marginLeft="4sp"
             android:layout_weight="1"
             android:background="#0015464C"
             android:buttonTint="@color/gold"
@@ -1247,7 +1397,103 @@
             android:id="@+id/checkBox8"
             android:layout_width="30sp"
             android:layout_height="39.5sp"
-            android:layout_marginLeft="2sp"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:background="#0015464C"
+            android:buttonTint="@color/gold"
+            android:onClick="ClickCheckbox"
+            android:scaleX="1.75"
+            android:scaleY="1.75" />
+<CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="30sp"
+            android:layout_height="39.5sp"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:background="#0015464C"
+            android:buttonTint="@color/gold"
+            android:onClick="ClickCheckbox"
+            android:scaleX="1.75"
+            android:scaleY="1.75" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="30sp"
+            android:layout_height="39.5sp"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:background="#0015464C"
+            android:buttonTint="@color/gold"
+            android:onClick="ClickCheckbox"
+            android:scaleX="1.75"
+            android:scaleY="1.75"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="30sp"
+            android:layout_height="39.5sp"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:background="#0015464C"
+            android:buttonTint="@color/gold"
+            android:onClick="ClickCheckbox"
+            android:scaleX="1.75"
+            android:scaleY="1.75" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="30sp"
+            android:layout_height="39.5sp"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:background="#0015464C"
+            android:buttonTint="@color/gold"
+            android:onClick="ClickCheckbox"
+            android:scaleX="1.75"
+            android:scaleY="1.75" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="30sp"
+            android:layout_height="39.5sp"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:background="#0015464C"
+            android:buttonTint="@color/gold"
+            android:onClick="ClickCheckbox"
+            android:scaleX="1.75"
+            android:scaleY="1.75" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="30sp"
+            android:layout_height="39.5sp"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:background="#0015464C"
+            android:buttonTint="@color/gold"
+            android:onClick="ClickCheckbox"
+            android:scaleX="1.75"
+            android:scaleY="1.75" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="30sp"
+            android:layout_height="39.5sp"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:background="#0015464C"
+            android:buttonTint="@color/gold"
+            android:onClick="ClickCheckbox"
+            android:scaleX="1.75"
+            android:scaleY="1.75" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="30sp"
+            android:layout_height="39.5sp"
+            android:layout_marginLeft="4sp"
             android:layout_weight="1"
             android:background="#0015464C"
             android:buttonTint="@color/gold"
@@ -1259,14 +1505,27 @@
             android:id="@+id/checkBox9"
             android:layout_width="30sp"
             android:layout_height="39.5sp"
-            android:layout_marginLeft="2sp"
+            android:layout_marginLeft="4sp"
             android:layout_weight="1"
             android:background="#0015464C"
             android:buttonTint="@color/gold"
             android:onClick="ClickCheckbox"
             android:scaleX="1.75"
             android:scaleY="1.75" />
-    </LinearLayout>
+
+    </GridLayout>
+
+    <ImageButton
+        android:id="@+id/pencilbtn"
+        android:layout_width="34sp"
+        android:layout_height="36sp"
+        android:layout_marginTop="24dp"
+        android:background="#15464C"
+        android:onClick="onPencilbtnClick"
+        android:paddingLeft="2sp"
+        app:layout_constraintStart_toEndOf="@+id/Checkboxs"
+        app:layout_constraintTop_toBottomOf="@id/Numbers"
+        app:srcCompat="@drawable/pencil_gold" />
 
     <Button
         android:id="@+id/choicebtn"
@@ -1281,6 +1540,25 @@
         app:layout_constraintBottom_toTopOf="@+id/table1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="35.5sp"
+        android:layout_height="37.5sp"
+        android:layout_margin="2sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="99dp"
+        android:layout_weight="1"
+        android:background="#15464C"
+        android:drawableLeft="@drawable/eraser"
+        android:onClick="onMyButtonClick"
+        android:tag="eraser"
+        android:textColor="#FFE8A5"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/Checkboxs"
+        app:layout_constraintStart_toEndOf="@+id/Numbers"
+        app:layout_constraintTop_toBottomOf="@id/table1"
+        app:layout_constraintVertical_bias="0.49" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,44 +2,215 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainCL"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0A3C57"
+    android:background="@color/mainback"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Recordsbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="49sp"
-        android:layout_marginTop="159sp"
-        android:layout_marginEnd="50sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/btnseconary"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="RecordsbtnClick"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:text="Records"
+        android:textColor="@color/textcolor1"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Stylebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/btnseconary"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="StylebtnClick"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:text="Style"
+        android:textColor="@color/textcolor1"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="50dp"
+        android:background="#00017483"
         android:text="SUDOKU"
         android:textAlignment="center"
-        android:textColor="#FFE8A5"
-        android:textSize="80sp"
+        android:textColor="@color/textcolor1"
+        android:textSize="77dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
+    <LinearLayout
+        android:id="@+id/ResumeGameLL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@color/btnseconary"
+        android:onClick="ResumeGameClick"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/StartNewGamebtn"
+        app:layout_constraintStart_toStartOf="@+id/StartNewGamebtn"
+        app:layout_constraintTop_toBottomOf="@+id/MainTitle"
+        tools:visibility="visible">
+
+        <Button
+            android:id="@+id/ResumeGameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/btnseconary"
+            android:onClick="ResumeGameClick"
+            android:paddingTop="10dp"
+            android:text="Resume Game"
+            android:textAlignment="center"
+            android:textColor="@color/textcolor1"
+            android:textSize="14dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/ResumeGameInfo"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="@color/btnseconary"
+            android:onClick="ResumeGameClick"
+            android:paddingBottom="10dp"
+            android:text="00:00 16x16 Middle"
+            android:textAlignment="center"
+            android:textColor="@color/textcolor2"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/StartNewGamebtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="134sp"
-        android:layout_marginTop="76sp"
-        android:layout_marginEnd="135sp"
-        android:background="#017483"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="135dp"
+        android:background="@color/btnseconary"
         android:onClick="NewGame"
-        android:padding="10sp"
+        android:padding="10dp"
         android:text="Start New Game"
         android:textAlignment="center"
-        android:textColor="#FFDB72"
+        android:textColor="@color/textcolor1"
+        android:textSize="14dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@id/ResumeGameLL"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/SizeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:text="SIZE:"
+        android:textColor="@color/textcolor1"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toStartOf="@+id/StartNewGamebtn"
+        app:layout_constraintTop_toBottomOf="@+id/StartNewGamebtn" />
+
+    <Button
+        android:id="@+id/ChoiceSizebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="37dp"
+        android:background="@color/btnseconary"
+        android:onClick="ChSizeOnClick"
+        android:padding="5dp"
+        android:text="9x9"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor1"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="@+id/StartNewGamebtn"
+        app:layout_constraintStart_toStartOf="@+id/StartNewGamebtn"
+        app:layout_constraintTop_toBottomOf="@+id/StartNewGamebtn"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/ArrowDownbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="37dp"
+        android:background="@color/btnseconary"
+        android:onClick="ArrowDownOnClick"
+        android:padding="5dp"
+        app:layout_constraintStart_toEndOf="@+id/StartNewGamebtn"
+        app:layout_constraintTop_toBottomOf="@+id/StartNewGamebtn"
+        app:srcCompat="@drawable/arrow_down"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:id="@+id/RadioSV"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/ArrowDownbtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ArrowDownbtn"
+        app:layout_constraintTop_toBottomOf="@+id/ArrowDownbtn"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="80dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/RB9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:onClick="RadioOnClick"
+                    android:text="9x9"
+                    android:textColor="@color/textcolor1"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:id="@+id/RB16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="RadioOnClick"
+                    android:text="16x16"
+                    android:textColor="@color/textcolor1"
+                    android:textSize="14dp" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialogCL"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/mainback">
+
+    <TextView
+        android:id="@+id/TitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="NEW GAME"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MessageTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="YOU SURE?"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor1"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleTV" />
+
+    <Button
+        android:id="@+id/Leftbtn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/btnseconary"
+        android:text="NO"
+        android:textColor="@color/textcolor1"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/MessageTV" />
+
+    <Button
+        android:id="@+id/Centerbtn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/btnseconary"
+        android:text="MIDDLE"
+        android:textColor="@color/textcolor1"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/Rightbtn"
+        app:layout_constraintStart_toEndOf="@id/Leftbtn"
+        app:layout_constraintTop_toBottomOf="@id/MessageTV"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <Button
+        android:id="@+id/Rightbtn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/btnseconary"
+        android:text="YES"
+        android:textColor="@color/textcolor1"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MessageTV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
